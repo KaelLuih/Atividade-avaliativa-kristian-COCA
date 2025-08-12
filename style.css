@@ -55,7 +55,7 @@ a {
     width: 100%;
 }
 
-.logo {
+.logo-header {
     display: flex;
     align-items: center;
     height: 100%;
@@ -80,7 +80,6 @@ a {
 
 .menu-mobile button {
     background-color: #F8F8F8;
-    ;
     border: 0;
     font-weight: 700;
     font-size: 2rem;
@@ -252,14 +251,14 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: start;
     padding: 2rem;
     border-radius: 1rem;
     background-color: #FFFFFF;
     height: auto;
     margin-bottom: 1.25rem;
     height: 70%;
-    text-align: center;
+ 
 
 
 }
@@ -275,7 +274,7 @@ a {
 .card-body h5 {
     color: var(--font-color-subtitle);
     font-weight: 400;
-    max-width: 80%;
+    max-width: 100%;
     font-size: 0.875rem;
 }
 
@@ -315,6 +314,7 @@ a {
     font-weight: 400;
     max-width: 97%;
     font-family: var(--font-family);
+
 }
 
 .orange-bottom {
@@ -395,12 +395,14 @@ a {
 
 
 .img-partners {
-
+    display: flex;
+ justify-content: space-around;
     margin-top: 5rem;
 
 }
-.desktop-partners{
-display: none;
+
+.desktop-partners {
+    display: none;
 }
 
 
@@ -545,18 +547,20 @@ display: none;
 }
 
 .suport-card h4 {
-    max-width: 80%;
+    max-width: 100%;
     font-size: 1rem;
+    text-align: center;
+    
     color: var(--font-color-subtitle);
     font-weight: 400;
 }
 
 .get-startede {
-     background-image: var(--background-color-get-started);
+    background-image: var(--background-color-get-started);
     border-radius: 1.5rem;
-      padding: 2.5rem 1.75rem;
+    padding: 2.5rem 1.75rem;
     margin-bottom: 2.5rem;
-    
+
 }
 
 
@@ -564,7 +568,7 @@ display: none;
 .get-started-text h2 {
     color: var(--font-color-tertiary);
     font-size: 1.875rem;
-    max-width: 90%;
+    max-width: 100%;
     margin-bottom: 1rem;
     font-weight: 600;
     font-family: var(--font-family);
@@ -574,7 +578,7 @@ display: none;
 .get-started-text h3 {
     color: var(--font-color-tertiary);
     font-size: 1rem;
-    max-width: 80%;
+    max-width: 100%;
     margin-bottom: 1.5rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -641,6 +645,9 @@ display: none;
     padding: 0.5rem;
     box-sizing: content-box;
 
+}
+.footer-end-part{
+display: none;
 }
 
 @media (min-width: 1024px) {
@@ -792,12 +799,12 @@ display: none;
     }
 
     .services-structure {
-        padding-top:116px;
+        padding-top: 116px;
         padding-bottom: 116px;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-    gap: 53px;
+        gap: 53px;
     }
 
     .service-card {
@@ -814,127 +821,164 @@ display: none;
         justify-content: space-between;
 
     }
-    .card-body{
+
+    .card-body {
         width: 310px;
         height: 254px;
-       
+
     }
-    .service-text h3{
+
+    .service-text h3 {
         margin-top: 30px;
     }
-    .service-text h4{
+
+    .service-text h4 {
         margin-bottom: 100px;
     }
-    .orange-bottom{
+
+    .orange-bottom {
         height: 3.5rem;
     }
-  .partners-structure{
-    display: flex;
-    flex-direction: row;
+
+    .partners-structure {
+        display: flex;
+        flex-direction: row;
         align-items: center;
-    justify-content: space-between;
-  }
-.partners-text h2{
-    font-size: 36px;
-}
-  .partners-left{
-    display: flex;
-    flex-direction: column;
-  }
-  .partner-data{
-    justify-content: flex-start;
-    gap: 48px;
-  }
-  .partners .orange-bottom{
-    width: 200px;
-  }
-.img-partners{
-    display: flex;
-    justify-content: flex-end;
-    margin-left: auto;
-}
-.desktop-partners{
-    display: flex;
-}
-.mobile-partners{
-display: none;
-}
+        justify-content: space-between;
+    }
+
+    .partners-text h2 {
+        font-size: 36px;
+    }
+
+    .partners-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .partner-data {
+        justify-content: flex-start;
+        gap: 48px;
+    }
+
+    .partners .orange-bottom {
+        width: 200px;
+    }
+
+    .img-partners {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+    }
+
+    .desktop-partners {
+        display: flex;
+    }
+
+    .mobile-partners {
+        display: none;
+    }
+
     .testimonial {
         display: none;
     }
-    .suport{
+
+    .suport {
         margin-top: 204px;
         margin-bottom: 170px;
     }
-    .suport-text h3{
+
+    .suport-text h3 {
         font-size: 18px;
         font-family: var(--font-family);
         font-weight: 400;
         color: #1A1A1A;
     }
-    .suport-text h2{
+
+    .suport-text h2 {
         align-items: center;
         text-align: center;
         max-width: 60%;
         font-size: 36px;
     }
-    .suport-card{
+
+    .suport-card {
         display: flex;
     }
-    .card-structure{
+
+    .card-structure {
         display: flex;
         flex-direction: row;
         gap: 80px;
         justify-content: center;
 
-    
+
     }
-    .suport-card{
+
+    .suport-card {
         width: 340px;
         height: 361px;
     }
- 
-    .desktop-structure{
+
+    .desktop-structure {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-          align-items: center;
-    justify-content: center;
-    padding: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
     }
-    .get-startede{
+
+    .get-startede {
         display: flex;
         flex-direction: row;
-           padding: 50px;
+        padding: 50px;
     }
-    .get-started-text{
+
+    .get-started-text {
         display: flex;
         flex-direction: column;
     }
-    .get-startede .orange-bottom{
+
+    .get-startede .orange-bottom {
         display: flex;
-    width: 250px;
-    margin-left: 50px;
-    padding: 20px;
+        width: 250px;
+        margin-left: 50px;
+        padding: 20px;
 
     }
-     .get-started{
+
+    .get-started {
         position: relative;
         margin-bottom: -150px;
         z-index: 10;
 
     }
-    .footer{
+    .get-started h3{
+        width: 70%;
+    }
+    .quebra-mobile{
+        display: none;
+    }
+
+    .footer {
+         
         max-width: 100%;
         position: relative;
         z-index: 1;
+ 
     }
+
     .logo {
         margin-top: 150px;
+        display: flex;
+        align-items: center;
+        height: 100%;
     }
-
+.footer-end-part{
+ margin-top: 150px;
+display: flex;
+flex-direction: row;
+gap: 72px;
 }
-
-
-
-
+}
