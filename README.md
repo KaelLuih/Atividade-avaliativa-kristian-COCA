@@ -1,7 +1,7 @@
 # Projeto de Desenvolvimento Front-End  
 
 ## Identificação  
-**Aluno(a):** Kael Luih de Araujo
+**Aluno(a):** Kael Luih de Araujo  
 **Projeto:** Desenvolvimento de Interface Web a partir de Layout no Figma  
 
 ---
@@ -38,31 +38,19 @@ Não é necessário servidor local, banco de dados ou configuração adicional.
 
 ## 📷 Comparativo Figma x Resultado Final  
 
-### Layout no Figma  
-![Demonstração animada](gifs/20250820-1916-07.3097391/mobile-figma.gif)
-![Demonstração animada](gifs/20250820-1916-07.3097391/desktop-figma.gif)
+### Mobile  
+| Layout no Figma | Resultado Desenvolvido |
+|-----------------|-------------------------|
+| <img src="gifs/20250820-1916-07.3097391/mobile-figma.gif" width="250"/> | <img src="gifs/20250820-1916-07.3097391/Mobile-replicacao.gif" width="250"/> |
 
-
-### Resultado Desenvolvido  
-![Demonstração animada](gifs/20250820-1916-07.3097391/Mobile-replicacao.gif)
-![Demonstração animada](gifs/20250820-1916-07.3097391/desktop-replicacao.gif)
-
-
-*(Se preferir, as imagens podem ser organizadas lado a lado utilizando tabelas Markdown ou outro recurso visual.)*  
+### Desktop  
+| Layout no Figma | Resultado Desenvolvido |
+|-----------------|-------------------------|
+| <img src="gifs/20250820-1916-07.3097391/desktop-figma.gif" width="400"/> | <img src="gifs/20250820-1916-07.3097391/desktop-replicacao.gif" width="400"/> |
 
 ---
 
-## ✅ Resultado Final  
 
-A seguir, apresenta-se o resultado concluído do projeto em diferentes resoluções:  
-
-### Versão Desktop  
-![](imagens/resultado-desktop.png)  
-
-### Versão Mobile  
-![](imagens/resultado-mobile.png)  
-
----
 
 ## 📄 Licença  
 
