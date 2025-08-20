@@ -39,10 +39,14 @@ Não é necessário servidor local, banco de dados ou configuração adicional.
 ## 📷 Comparativo Figma x Resultado Final  
 
 ### Layout no Figma  
-![](imagens/figma-layout.png)  
+![Demonstração animada](gifs/20250820-1916-07.3097391/mobile-figma.gif)
+![Demonstração animada](gifs/20250820-1916-07.3097391/desktop-figma.gif)
+
 
 ### Resultado Desenvolvido  
-![](imagens/site-desenvolvido.png)  
+![Demonstração animada](gifs/20250820-1916-07.3097391/Mobile-replicacao.gif)
+![Demonstração animada](gifs/20250820-1916-07.3097391/desktop-replicacao.gif)
+
 
 *(Se preferir, as imagens podem ser organizadas lado a lado utilizando tabelas Markdown ou outro recurso visual.)*  
 
