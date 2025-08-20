@@ -41,7 +41,7 @@ Não é necessário servidor local, banco de dados ou configuração adicional.
 ### Mobile  
 | Layout no Figma | Resultado Desenvolvido |
 |-----------------|-------------------------|
-| <img src="gifs/20250820-1916-07.3097391/mobile-figma.gif" width="250"/> | <img src="gifs/20250820-1916-07.3097391/Mobile-replicacao.gif" width="250"/> |
+| <img src="gifs/20250820-1916-07.3097391/mobile-figma.gif" width="400"/> | <img src="gifs/20250820-1916-07.3097391/Mobile-replicacao.gif" width="400"/> |
 
 ### Desktop  
 | Layout no Figma | Resultado Desenvolvido |
@@ -67,3 +67,4 @@ A realização deste projeto possibilitou compreender, na prática, a importânc
 - Aplicar **HTML semântico** e **CSS estruturado com boas práticas**, reforçando conceitos fundamentais de acessibilidade, organização e manutenção de código.  
 
 Este aprendizado representa um passo essencial para consolidar competências em **desenvolvimento front-end profissional**.  
+
