@@ -58,4 +58,5 @@ A realização deste projeto possibilitou compreender, na prática, a importânc
 - Garantir a **fidelidade ao design proposto**, respeitando o layout definido no Figma.  
 - Aplicar **HTML semântico** e **CSS estruturado com boas práticas**, reforçando conceitos fundamentais de acessibilidade, organização e manutenção de código.  
 
-Este aprendizado representa um passo essencial para consolidar competências em **desenvolvimento front-end profissional**.  
+Este aprendizado representa um passo essencial para consolidar competências em **desenvolvimento front-end **.  
+
