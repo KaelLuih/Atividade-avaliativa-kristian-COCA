@@ -36,26 +36,10 @@ Não é necessário servidor local, banco de dados ou configuração adicional.
 
 ---
 
-## 📷 Comparativo Figma x Resultado Final  
+## 📷 Resultado Final  
 
-### Mobile  
 <div align="center">
-
-| Layout no Figma | Resultado Desenvolvido |
-|-----------------|-------------------------|
-| <img src="gifs/20250820-1916-07.3097391/mobile-figma.gif" width="500" style="margin:15px"/> | <img src="gifs/20250820-1916-07.3097391/Mobile-replicacao.gif" width="500" style="margin:15px"/> |
-
-</div>  
-
----
-
-### Desktop  
-<div align="center">
-
-| Layout no Figma | Resultado Desenvolvido |
-|-----------------|-------------------------|
-| <img src="gifs/20250820-1916-07.3097391/desktop-figma.gif" width="700" style="margin:20px"/> | <img src="gifs/20250820-1916-07.3097391/desktop-replicacao.gif" width="700" style="margin:20px"/> |
-
+  <img src="gifs/20250820-1916-07.3097391/desktop-replicacao.gif" width="800"/>
 </div>  
 
 ---
