@@ -728,7 +728,7 @@ a {
     }
 
     .hero-overlay {
-        margin-top: 49px;
+        margin-top: 3.0625rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -743,12 +743,12 @@ a {
 
     .hero-new-structure {
         width: 85%;
-        margin-left: 70px;
+        margin-left: 4.375rem;
     }
 
     .text-hero h2 {
         max-width: 100%;
-        font-size: 5rem
+        font-size: clamp(3rem, 5vw, 5rem)
     }
 
     .text-hero h3 {
@@ -764,13 +764,13 @@ a {
 
     .image-hero img {
         max-width: 100%;
-        width: 718px;
-        height: 681px;
+        width: clamp(33.75rem, 49vw, 44.875rem);
+        height: auto;
         flex: 1;
     }
 
     .hero-chosse {
-        gap: 24px;
+        gap: 1.5rem;
         justify-content: start;
         font-size: 0.875rem;
         margin-bottom: 3rem;
@@ -790,8 +790,8 @@ a {
 
     .company-soon img {
         flex: 1;
-        width: 310px;
-        height: 100px;
+        width: 19.375rem;
+        height: 6.25rem;
     }
 
     .structure-soon {
@@ -800,19 +800,19 @@ a {
     }
 
     .services-structure {
-        padding-top: 116px;
-        padding-bottom: 116px;
+        padding-top: 7.25rem;
+        padding-bottom: 7.25rem;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        gap: 53px;
+        gap: 3.3125rem;
     }
 
     .service-card {
         display: flex;
         flex-direction: row;
         max-width: 90%;
-        gap: 20px;
+        gap: 1.25rem;
     }
 
 
@@ -824,17 +824,17 @@ a {
     }
 
     .card-body {
-        width: 310px;
-        height: 254px;
+        width: 19.375rem;
+        height: 15.875rem;
 
     }
 
     .service-text h3 {
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
 
     .service-text h4 {
-        margin-bottom: 100px;
+        margin-bottom: 6.25rem;
     }
 
     .orange-bottom {
@@ -849,7 +849,7 @@ a {
     }
 
     .partners-text h2 {
-        font-size: 36px;
+        font-size: 2.25rem;
     }
 
     .partners-left {
@@ -859,11 +859,11 @@ a {
 
     .partner-data {
         justify-content: flex-start;
-        gap: 48px;
+        gap: 3rem;
     }
 
     .partners .orange-bottom {
-        width: 200px;
+        width: 12.5rem;
     }
 
     .img-partners {
@@ -885,12 +885,12 @@ a {
     }
 
     .suport {
-        margin-top: 204px;
-        margin-bottom: 170px;
+        margin-top: 12.75rem;
+        margin-bottom: 10.625rem;
     }
 
     .suport-text h3 {
-        font-size: 18px;
+        font-size: 1.125rem;
         font-family: var(--font-family);
         font-weight: 400;
         color: #1A1A1A;
@@ -900,7 +900,7 @@ a {
         align-items: center;
         text-align: center;
         max-width: 60%;
-        font-size: 36px;
+        font-size: 2.25rem;
     }
 
     .suport-card {
@@ -910,15 +910,15 @@ a {
     .card-structure {
         display: flex;
         flex-direction: row;
-        gap: 80px;
+        gap: 5rem;
         justify-content: center;
 
 
     }
 
     .suport-card {
-        width: 340px;
-        height: 361px;
+        width: 21.25rem;
+        height: 22.5625rem;
     }
 
     .desktop-structure {
@@ -927,13 +927,13 @@ a {
         justify-content: space-between;
         align-items: center;
         justify-content: center;
-        padding: 20px;
+        padding: 1.25rem;
     }
 
     .get-startede {
         display: flex;
         flex-direction: row;
-        padding: 50px;
+        padding: 3.125rem;
     }
 
     .get-started-text {
@@ -943,15 +943,15 @@ a {
 
     .get-startede .orange-bottom {
         display: flex;
-        width: 250px;
-        margin-left: 50px;
-        padding: 20px;
+        width: 15.625rem;
+        margin-left: 3.125rem;
+        padding: 1.25rem;
 
     }
 
     .get-started {
         position: relative;
-        margin-bottom: -150px;
+        margin-bottom: -9.375rem;
         z-index: 10;
 
     }
@@ -971,25 +971,25 @@ a {
         z-index: 1;
         display: flex;
         flex-direction: row;
-        gap: 100px;
-justify-content: space-between;
+        gap: 6.25rem;
+        justify-content: space-between;
 
     }
 
 
 
     .logo {
-        margin: 150px 40px;
+        margin: 9.375rem 2.5rem;
         display: flex;
         align-items: center;
         height: 100%;
-        padding-right: 100px;
+        padding-right: 6.25rem;
     }
 
     .footer-text {
-        margin: 215px 40px;
+        margin: 13.4375rem 2.5rem;
         position: absolute;
-        font-size: 14px;
+        font-size: 0.875rem;
         max-width: 20%;
 
     }
@@ -998,9 +998,9 @@ justify-content: space-between;
 
         display: flex;
         flex-direction: row;
-        gap: 72px;
+        gap: 4.5rem;
         justify-content: space-between;
-        margin-top: 150px;
+        margin-top: 9.375rem;
 
     }
 
@@ -1018,15 +1018,15 @@ justify-content: space-between;
     .contact-desktop {
         display: flex;
         flex-direction: column;
-        margin-top: 150px;
+        margin-top: 9.375rem;
 
     }
 
 
     .social-midias {
         position: absolute;
-        margin: 40px;
-        margin-top: 300px;
+        margin: 2.5rem;
+        margin-top: 18.75rem;
 
     }
 
